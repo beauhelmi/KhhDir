@@ -17,20 +17,20 @@
         //keluarga Maklong
             { "id": 3, "pid": 4, "mid": 2, "fid": 1, "gender": "female", "title": "Mak Long", "name": "Hamsiah Haniff", "photo": "", "addr": "Gombak", "cn": "my" },
             { "id": 4, "pid": 3, "gender": "male", "title": "Pak Long", "name": "Ahmad", "photo": "", "addr": "RIP", "cn": "my" },
-            { "id": 7, "mid": 3, "fid": 4, "gender": "female", "title": "Title", "name": "Daughter", "photo": "", "addr": "USA", "cn": "us" },
-            { "id": 8, "mid": 3, "fid": 4, "gender": "male", "title": "Title", "name": "Son", "photo": "", "addr": "USA", "cn": "us" },
+            { "id": 7, "mid": 3, "fid": 4, "gender": "female", "title": "Eda", "name": "Junaidah", "photo": "", "addr": "USA", "cn": "us" },
+            { "id": 8, "mid": 3, "fid": 4, "gender": "male", "title": "Edi", "name": "Zaidi", "photo": "", "addr": "USA", "cn": "us" },
         //Pakngah
             { "id": 11, "mid": 2, "fid": 1, "gender": "male", "title": "Pak Ngah", "name": "Farid Haniff", "photo": "", "addr": "RIP", "cn": "my" },
         //Keluarga Paklang
-            { "id": 5, "pid": 6, "mid": 2, "fid": 1, "gender": "male", "title": "Pak Lang", "name": "Patel", "photo": "//unsplash.it/80/80", "addr": "Ipoh", "cn": "", "partner": "14"},
-            { "id": 6, "pid": 5, "gender": "female", "title": "Mak Lang", "name": "Daughter-in-Law", "photo": "", "addr": "RIP", "cn": "us", "partner": "5" },
-            { "id": 9, "mid": 6, "fid": 5, "gender": "female", "title": "Title", "name": "Daughter", "photo": "", "addr": "India", "cn": "in" },
-            { "id": 10, "mid": 6, "fid": 5, "gender": "male", "title": "Title", "name": "Son", "photo": "", "addr": "Canada", "cn": "ca" },
-            { "id": 12, "mid": 6, "fid": 5, "gender": "male", "title": "Title", "name": "Son", "photo": "", "addr": "Canada", "cn": "ca" },   
-            { "id": 13, "mid": 6, "fid": 5, "gender": "female", "title": "Title", "name": "Son", "photo": "", "addr": "Canada", "cn": "ca" },
+            { "id": 5, "pid": 6, "mid": 2, "fid": 1, "gender": "male", "title": "Pak Lang", "name": "Patel", "photo": "", "addr": "Ipoh", "cn": "my", "partner": "14"},
+            { "id": 6, "pid": 5, "gender": "female", "title": "Mak Lang", "name": "Daughter-in-Law", "photo": "", "addr": "RIP", "cn": "my", "partner": "5" },
+            { "id": 9, "mid": 6, "fid": 5, "gender": "female", "title": "Title", "name": "Daughter", "photo": "", "addr": "India", "cn": "my" },
+            { "id": 10, "mid": 6, "fid": 5, "gender": "male", "title": "Title", "name": "Son", "photo": "", "addr": "Ipoh", "cn": "my" },
+            { "id": 12, "mid": 6, "fid": 5, "gender": "male", "title": "Title", "name": "Son", "photo": "", "addr": "Ipoh", "cn": "my" },   
+            { "id": 13, "mid": 6, "fid": 5, "gender": "female", "title": "Title", "name": "Son", "photo": "", "addr": "Ipoh", "cn": "my" },
         //Keluarga Pakteh
-        { "id": 14, "mid": 2, "fid": 1, "gender": "female", "title": "Title", "name": "Son", "photo": "", "addr": "Canada", "cn": "ca" },
-        { "id": 15, "mid": 2, "fid": 1, "gender": "female", "title": "Title", "name": "Son", "photo": "", "addr": "Canada", "cn": "ca" },    
+        { "id": 14, "mid": 2, "fid": 1, "gender": "female", "title": "Pak Teh", "name": "Fateh", "photo": "", "addr": "Ipoh", "cn": "my" },
+        { "id": 15, "mid": 2, "fid": 1, "gender": "female", "title": "Pak Ban", "name": "Ridzuan", "photo": "", "addr": "Alor Star", "cn": "my" },    
         ];
     </script>
     </head>
@@ -41,7 +41,7 @@
             data: jsonData,
             search: true,
             container: "divFamily",
-            template: "circle" // "rounded" // "raised" // "tilted"
+            template: "rounded" // "rounded" // "raised" // "tilted"
         };
         var tree = new Lineage(params);
         tree.load();
